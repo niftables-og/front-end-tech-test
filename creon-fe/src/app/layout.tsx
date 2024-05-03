@@ -9,7 +9,8 @@ const monument = localFont({
       weight: "regular",
       style: "italic",
     }
-  ]
+  ],
+  variable: "--monument",
 });
 
 const satoshi = localFont({
@@ -18,9 +19,20 @@ const satoshi = localFont({
       path: "../fonts/Satoshi-Regular.woff2",
       weight: "regular",
       style: "italic",
+    },
+    {
+      path: "../fonts/Satoshi-Medium.woff2",
+      weight: "regular",
+      style: "italic",
+    },
+    {
+      path: "../fonts/Satoshi-Bold.woff2",
+      weight: "bold",
+      style: "normal",
     }
-  ]
-})
+  ],
+  variable: "--satoshi",
+});
 
 export const metadata: Metadata = {
   title: "Creon Frontend Test",
