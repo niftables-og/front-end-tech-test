@@ -24,10 +24,10 @@ const config: Config = {
         "grey-text": "#46505f",
       },
       spacing: {},
-      fontFamily: {
-        satoshi: "Satoshi",
-        "monument-extended": "'Monument Extended'",
-      },
+      // fontFamily: {
+      //   satoshi: "Satoshi",
+      //   "monument-extended": "'Monument Extended'",
+      // },
       borderRadius: {
         "81xl": "100px",
         "12xs": "1px",

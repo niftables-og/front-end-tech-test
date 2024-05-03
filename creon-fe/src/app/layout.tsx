@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from 'next/font/local';
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const monument = localFont({
+  src: [
+    {
+      path: "../fonts/MonumentExtended-Regular.woff2",
+      weight: "regular",
+      style: "italic",
+    }
+  ]
+});
+
+const satoshi = localFont({
+  src: [
+    {
+      path: "../fonts/Satoshi-Regular.woff2",
+      weight: "regular",
+      style: "italic",
+    }
+  ]
+})
 
 export const metadata: Metadata = {
   title: "Creon Frontend Test",
@@ -15,8 +33,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${monument.className} ${satoshi.className}`}>
+      <body>{children}</body>
     </html>
   );
 }
