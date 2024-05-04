@@ -4,66 +4,29 @@ const config: Config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        black: "#000",
-        gray: {
-          "100": "rgba(13, 19, 28, 0.7)",
-          "200": "rgba(19, 23, 29, 0.6)",
-        },
-        white: "#fff",
-        "grey-line": "#13171d",
-        darkslategray: {
-          "100": "#454a4f",
-          "200": "rgba(69, 74, 79, 0.09)",
-        },
-        blue: "#3d8bff",
-        purple: "#ab23ff",
-        "grey-text": "#46505f",
+        primary: "#3D8BFF",
+        secondary: "#AB23FF",
+        tertiary: "#151030",
+        "black-100": "#100d25",
+        "black-200": "#090325",
+        "white-100": "#f3f3f3",
       },
-      spacing: {},
-      fontFamily: {
-        satoshi: ['var(--satoshi)'],
-        monument: ['var(--monument)'],
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
       },
-      borderRadius: {
-        "81xl": "100px",
-        "12xs": "1px",
+      screens: {
+        xs: "450px",
+      },
+      backgroundImage: {
+        "header-pattern": "url('/main-video-gradient.png')",
       },
     },
-    fontSize: {
-      lg: "18px",
-      "19xl": "38px",
-      "11xl": "30px",
-      "4xl": "23px",
-      "3xl": "22px",
-      xs: "12px",
-      "49xl": "68px",
-      "35xl": "54px",
-      "22xl": "41px",
-      "3xs": "10px",
-      base: "16px",
-      inherit: "inherit",
-    },
-    screens: {
-      mq1024: {
-        raw: "screen and (max-width: 1024px)",
-      },
-      // mq1350: {
-      //   raw: "screen and (max-width: 1350px)",
-      // },
-      // mq925: {
-      //   raw: "screen and (max-width: 925px)",
-      // },
-      // mq450: {
-      //   raw: "screen and (max-width: 450px)",
-      // },
-    },
-  },
-  corePlugins: {
-    preflight: false,
   },
   plugins: [],
 };

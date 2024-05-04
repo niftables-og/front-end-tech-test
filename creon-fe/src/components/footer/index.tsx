@@ -4,64 +4,71 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import TelegramIcon from "@/assets/telegram.svg";
-import DiscordIcon from "@/assets/discord.svg";
-import TwitterIcon from "@/assets/twitter.svg";
-import LogoIcon from "@/assets/frame-692.svg";
+import TelegramIcon from "@/assets/img/Telegram.png";
+import DiscordIcon from "@/assets/img/Discord.png";
+import TwitterIcon from "@/assets/img/Twitter.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-black flex-1 overflow-hidden flex flex-row items-end fixed bottom-0 w-full justify-between pt-[15px] px-60 pb-[20px] box-border max-w-full gap-[20px] z-[3] text-left text-base text-white font-satoshi mq925:pl-[60px] mq925:pr-[60px] mq925:box-border mq1350:flex-wrap mq1350:pl-[120px] mq1350:pr-[120px] mq1350:box-border">
-      <div className="w-[453px] flex flex-row items-start justify-start gap-[90px] max-w-full mq925:flex-wrap mq450:gap-[45px]">
-        <div className="flex-1 flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border min-w-[167px]">
-          <p className="self-stretch relative leading-[21px]">
-            © Creon 2023. All rights reserved.
+    <div className="news-pattern bg-cover bg-no-repeat">
+      <div className={`w-full flex justify-center mx-auto relative z-0`}>
+        <div className="lg:w-[75%] w-[95%] h-full  mb-10 items-center flex-row justify-between gap-4 sm:flex hidden">
+          <div className="flex flex-row items-center">
+            <p className="satoshi-regular text-xs text-white mr-20">
+              &copy; Creon 2023. All rights reserved.
+            </p>
+            <div className="flex flex-row gap-2">
+              <Image
+                src={TelegramIcon}
+                alt="Telegram"
+                className="w-7 h-7 cursor-pointer"
+              />
+              <Image
+                src={DiscordIcon}
+                alt="Discord"
+                className="w-7 h-7 cursor-pointer"
+              />
+              <Image
+                src={TwitterIcon}
+                alt="Twitter"
+                className="w-7 h-7 cursor-pointer"
+              />
+            </div>
+          </div>
+          <p className="satoshi-regular text-xs text-white">
+            Powered by{" "}
+            <span className="monumentExtended text-xs">NIFTABLES</span>
           </p>
         </div>
-        <div className="flex flex-row items-start pt-[17px] px-0 pb-0 box-border justify-start gap-[8px]">
-          <Link href="/" className="cursor-pointer">
+        <div className="w-[95%]  mb-20  flex-col justify-center items-center gap-4 sm:hidden flex">
+          <div className="flex flex-row gap-2">
             <Image
-              className="h-[34px] w-[34px] relative min-h-[34px]"
-              loading="lazy"
-              alt=""
               src={TelegramIcon}
+              alt="Telegram"
+              className="w-7 h-7 cursor-pointer"
             />
-          </Link>
-          <Link href="/" className="cursor-pointer">
             <Image
-              className="h-[34px] w-[34px] relative overflow-hidden shrink-0 min-h-[34px]"
-              loading="lazy"
-              alt=""
               src={DiscordIcon}
+              alt="Discord"
+              className="w-7 h-7 cursor-pointer"
             />
-          </Link>
-
-          <Link href="/" className="cursor-pointer">
             <Image
-              className="h-[34px] w-[34px] relative overflow-hidden shrink-0 min-h-[34px]"
-              loading="lazy"
-              alt=""
               src={TwitterIcon}
-            />
-          </Link>
-        </div>
-      </div>
-      <div className="w-[190px] flex flex-col items-start justify-end pt-0 px-0 pb-3 box-border">
-        <div className="self-stretch overflow-hidden flex flex-row items-start justify-start gap-[6px]">
-          <div className="relative leading-[21px] inline-block min-w-[83px]">
-            Powered by
-          </div>
-          <div className="flex-1 flex flex-col items-start justify-start pt-[3px] px-0 pb-0">
-            <Image
-              className="self-stretch h-[18px] relative max-w-full overflow-hidden shrink-0"
-              loading="lazy"
-              alt=""
-              src={LogoIcon}
+              alt="Twitter"
+              className="w-7 h-7 cursor-pointer"
             />
           </div>
+          <p className="satoshi-regular text-xs text-white ">
+            &copy; Creon 2023. All rights reserved.
+          </p>
+
+          <p className="satoshi-regular text-xs text-white">
+            Powered by{" "}
+            <span className="monumentExtended text-xs">NIFTABLES</span>
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
