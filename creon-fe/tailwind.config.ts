@@ -48,18 +48,18 @@ const config: Config = {
       inherit: "inherit",
     },
     screens: {
-      mq1825: {
-        raw: "screen and (max-width: 1825px)",
+      mq1024: {
+        raw: "screen and (max-width: 1024px)",
       },
-      mq1350: {
-        raw: "screen and (max-width: 1350px)",
-      },
-      mq925: {
-        raw: "screen and (max-width: 925px)",
-      },
-      mq450: {
-        raw: "screen and (max-width: 450px)",
-      },
+      // mq1350: {
+      //   raw: "screen and (max-width: 1350px)",
+      // },
+      // mq925: {
+      //   raw: "screen and (max-width: 925px)",
+      // },
+      // mq450: {
+      //   raw: "screen and (max-width: 450px)",
+      // },
     },
   },
   corePlugins: {
