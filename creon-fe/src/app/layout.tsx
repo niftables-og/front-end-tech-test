@@ -49,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${monument.className} ${satoshi.className}`}>
       <body>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

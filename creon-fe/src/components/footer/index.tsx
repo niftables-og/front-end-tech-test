@@ -4,10 +4,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import TelegramIcon from "../../../public/assets/telegram.svg";
-import DiscordIcon from "../../../public/assets/discord.svg";
-import TwitterIcon from "../../../public/assets/twitter.svg";
-import LogoIcon from "../../../public/assets/frame-692.svg";
+import TelegramIcon from "@/assets/telegram.svg";
+import DiscordIcon from "@/assets/discord.svg";
+import TwitterIcon from "@/assets/twitter.svg";
+import LogoIcon from "@/assets/frame-692.svg";
 
 const Footer = () => {
   return (
