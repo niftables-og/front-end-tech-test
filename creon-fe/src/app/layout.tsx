@@ -22,16 +22,16 @@ const satoshi = localFont({
       weight: "400",
       style: "normal",
     },
-    {
-      path: "../fonts/Satoshi-Medium.woff2",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../fonts/Satoshi-Bold.woff2",
-      weight: "700",
-      style: "normal",
-    },
+    // {
+    //   path: "../fonts/Satoshi-Medium.woff2",
+    //   weight: "500",
+    //   style: "normal",
+    // },
+    // {
+    //   path: "../fonts/Satoshi-Bold.woff2",
+    //   weight: "700",
+    //   style: "normal",
+    // },
   ],
   variable: "--satoshi",
 });
