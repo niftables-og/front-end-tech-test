@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import localFont from "next/font/local";
-import "./globals.css";
+import "@/styles/globals.css";
 
 const monument = localFont({
   src: [
     {
-      path: "../fonts/MonumentExtended-Regular.woff2",
+      path: "../assets/fonts/MonumentExtended-Regular.woff2",
       weight: "700",
       style: "normal",
     },
@@ -18,20 +18,10 @@ const monument = localFont({
 const satoshi = localFont({
   src: [
     {
-      path: "../fonts/Satoshi-Regular.woff2",
+      path: "../assets/fonts/Satoshi-Regular.woff2",
       weight: "400",
       style: "normal",
     },
-    // {
-    //   path: "../fonts/Satoshi-Medium.woff2",
-    //   weight: "500",
-    //   style: "normal",
-    // },
-    // {
-    //   path: "../fonts/Satoshi-Bold.woff2",
-    //   weight: "700",
-    //   style: "normal",
-    // },
   ],
   variable: "--satoshi",
 });
