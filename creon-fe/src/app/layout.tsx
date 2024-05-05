@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 import localFont from "next/font/local";
 import "@/styles/globals.css";
 
@@ -39,9 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${monument.className} ${satoshi.className}`}>
       <body>
-        {/* <Navbar /> */}
         {children}
-        <Footer />
       </body>
     </html>
   );

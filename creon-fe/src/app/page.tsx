@@ -1,6 +1,7 @@
 import Entry from "./home";
 import SectionTwo from "./sectionTwo";
 import SectionThree from "./sectionThree";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <SectionThree />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
