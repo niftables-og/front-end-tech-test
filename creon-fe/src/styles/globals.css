@@ -85,7 +85,6 @@ body {
 
 .header-pattern {
   background-image: url("../assets/img/main-video-gradient.png");
-  /* linear-gradient(to top, #000000, #3A209F) */
   box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
   -webkit-background-size: cover;
    -moz-background-size: cover;
