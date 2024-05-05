@@ -48,20 +48,6 @@ const SectionTwo = () => {
             </li>
           ))}
         </ul>
-        {/* <ul className="list-none text-white satoshi-regular mb-10  text-[0.88rem] hidden lg:block">
-          <li className="mb-2 text-sm text-[0.88rem] border border-gray-900 rounded p-2">
-            Pre-launch investment opportunities for upcoming AI projects
-          </li>
-          <li className="mb-2 text-sm text-[0.88rem] border border-gray-900 rounded p-2">
-            Free and early access to Creon built AI projects
-          </li>
-          <li className="mb-2 text-sm text-[0.88rem] border border-gray-900 rounded p-2">
-            Higher allocation limits on the Creon AI Launchpad
-          </li>
-          <li className="text-sm text-[0.88rem] border border-gray-900 rounded p-2">
-            Revenue share distribution from Creon built AI projects
-          </li>
-        </ul> */}
         <div className="lg:hidden flex flex-col mb-5">
           <div>
             <p className="flex flex-cust-2 satoshi-regular mb-2 text-sm text-[0.88rem] border border-gray-900 rounded p-2">
