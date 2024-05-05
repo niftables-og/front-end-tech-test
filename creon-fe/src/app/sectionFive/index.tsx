@@ -31,7 +31,7 @@ const SectionFive = () => {
       {comingsoon.map((data, id) => {
         return (
           <div key={id} className="w-full cust-bg ">
-            <div className="flex flex-col md:w-full w-[20rem] news">
+            <div className="flex flex-col md:w-full w-[20rem]">
               <div className="w-[94%] flex justify-end -mt-1">
                 <button className="bg-white uppercase rounded-md text-black satoshi-bold leading-3 text-[0.60rem] px-1">
                   Coming soon
@@ -45,7 +45,7 @@ const SectionFive = () => {
                   {data.subheader}
                 </h4>
               </div>
-              <div className="w-[94%] flex justify-start overflow-hidden rounded-md">
+              <div className="w-[94%] flex justify-start overflow-hidden rounded-md  news">
                 <Image src={data.img} alt="coming soon" className="news-img" />
               </div>
               <p className="w-[94%] satoshi-regular text-sm text-white pt-5 pl-5 pb-10 text-[0.88rem]">

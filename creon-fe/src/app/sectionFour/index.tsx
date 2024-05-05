@@ -25,7 +25,7 @@ const mission = [
   },
   {
     icon: Icon3,
-    header: "Luanching the future",
+    header: "Launching the future",
     text: "At Creon, we deliver a unique opportunity to benefit from a real AI-based business that generates profits. We believe that through our solutions, every investor will be able to reap the benefits of the latest achievements in the field of artificial intelligence.",
     status: false,
   },
@@ -39,7 +39,7 @@ const mission = [
 
 function SectionFour() {
   const [openIndex, setOpenIndex] =
-    useState<SetStateAction<number | null>>(null);
+    useState<SetStateAction<number | null>>(0);
 
   const toggleAccordion = (index: number) => {
     setOpenIndex((prevIndex: number | null) =>
