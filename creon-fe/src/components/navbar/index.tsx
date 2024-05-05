@@ -55,7 +55,7 @@ const Navbar = () => {
           <li>
             <Link
               href=""
-              className="bg-transparent px-5 py-2 border-white border rounded"
+              className="bg-transparent px-5 py-2 border-white border rounded hover:text-white hover:border-blue-500 hover:bg-blue-500"
             >
               Connect
             </Link>
