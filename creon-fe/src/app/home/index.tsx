@@ -23,15 +23,15 @@ const Entry = () => {
 function HeroText() {
   return (
     <div className="mt-[28rem] sm:mb-0 ">
-      <h1 className="m-0 self-stretch relative text-inherit leading-[110%] uppercase text-4xl text-white monumentExtended lg:flex hidden">
+      <h1 className="m-0 self-stretch relative text-inherit leading-[110%] uppercase text-5xl mb-7 text-white monumentExtended lg:flex hidden">
         The world's first <br />
         platform for Tokenizing <br />
         AI blockchain projects
       </h1>
-      <h1 className="uppercase sm:text-4xl sm:pt-0 sm:pb-0 pt-20 pb-10 text-3xl text-white satoshi-medium mb-10 lg:hidden">
+      <h1 className="uppercase sm:text-4xl sm:pt-0 sm:pb-0 pt-20 pb-10 text-3xl text-white satoshi-medium mb-20 lg:hidden">
         Empowering AI-Crypto Innovations and Integrating AI Tools into crypto.
       </h1>
-      <h2 className="lg:inline  hidden text-bg-inline border-custom py-2 satoshi-bold ">
+      <h2 className="lg:inline  hidden text-bg-inline border-custom py-2 satoshi-bold">
         Hold the Creon Pass NFT and earn passive income from AI Tools
       </h2>
       <h2 className="lg:hidden inline  text-bg border-custom py-2 satoshi-bold ">
