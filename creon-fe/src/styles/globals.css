@@ -88,7 +88,7 @@ body {
 }
 
 .news-pattern {
-  background-image: url("../videos/nft-video.mp4");
+  background-image: url("../assets/img/video-background.png");
 }
 .blur-no {
   background: rgb(0, 0, 0, 0.5);
