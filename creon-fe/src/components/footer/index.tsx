@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="news-pattern bg-cover bg-no-repeat">
       <div className={`w-full flex justify-center mx-auto relative z-0`}>
-        <div className="lg:w-[75%] w-[95%] h-full  mb-10 items-center flex-row justify-between gap-4 sm:flex hidden">
+        <div className="lg:w-[80%] w-[95%] h-full  mb-10 items-center flex-row justify-between gap-4 sm:flex hidden">
           <div className="flex flex-row items-center">
             <p className="satoshi-regular text-xs text-white mr-20">
               &copy; Creon 2023. All rights reserved.
