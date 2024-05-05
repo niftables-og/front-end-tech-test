@@ -23,10 +23,10 @@ const config: Config = {
       screens: {
         xs: "450px",
       },
-      // fontFamily: {
-      //   satoshi: "Satoshi",
-      //   monument_extended: "Monument Extended",
-      // },
+      fontFamily: {
+        satoshi: "Satoshi",
+        monument_extended: "Monument Extended",
+      },
       backgroundImage: {
         "header-pattern": "url('/main-video-gradient.png')",
       },

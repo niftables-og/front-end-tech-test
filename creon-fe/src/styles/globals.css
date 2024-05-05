@@ -83,6 +83,10 @@ body {
   opacity: 0.8;
 }
 
+.header-pattern {
+  background-image: url("../assets/img/main-video-gradient.png");
+}
+
 .news-pattern {
   background-image: url("/Video_background.png");
 }
